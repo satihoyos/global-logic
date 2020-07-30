@@ -1,0 +1,20 @@
+{
+  "id":1,
+  "name":"Juan Rodriguez",
+  "email":"juan@gmail.com",
+  "password":"$2a$10$uXqkoxKtWqTNDAlUTS/ed.F5Vly4T.xBC6bfVxW..Ep4Qtr2D..EG",
+  "create":"2020-07-30",
+  "modified":"2020-07-30",
+  "lastLogin":"2020-07-30",
+  "enabled":true,
+  "phones":[
+    {
+      "id":1,
+      "number":"1234567",
+      "cityCode":"1",
+      "contryCode":"57",
+      "create":"2020-07-30",
+      "modified":"2020-07-30"
+    }
+  ]
+}
