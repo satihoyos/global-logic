@@ -13,7 +13,6 @@ public class UserCommonData {
     private Date modified;
     @JsonProperty("last_login")
     private Date lastLogin;
-    @JsonProperty("isactive")
     private boolean isActive;
 
     public Long getId() {
@@ -48,6 +47,7 @@ public class UserCommonData {
         this.lastLogin = lastLogin;
     }
 
+    @JsonProperty("isactive")
     public boolean isActive() {
         return isActive;
     }
@@ -66,4 +66,5 @@ public class UserCommonData {
                 ", isActive=" + isActive +
                 '}';
     }
+
 }
