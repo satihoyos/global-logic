@@ -26,6 +26,16 @@ Compilar proyecto con gradle
     > java -jar user-api-0.0.1-SNAPSHOT.jar
 ```
 ## Endpoints
+La aplicación tiene 3 usuarios  de pruebas: <br/>
+
+user 1: jsati@prb.cl <br/>
+password:hunterA22<br/>
+
+user 2: test@prb.cl<br/>
+password:hunterA22<br/>
+
+user 3: deseable@prb.cl<br/>
+password:hunterA22<br/><br/>
 Ejemplo de como ejecutar los servicios expuestos por la api
 ### Crear Usuario
 Este recurso no está protegido así que no le solicitará token.
@@ -55,7 +65,6 @@ Response:
     "modified": "2020-07-31T16:40:48.459+00:00",
     "token": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJqdWFuQGdtYWlsLmNvbSIsImV4cCI6MTU5NjgxODQ0OCwiaWF0IjoxNTk2MjEzNjQ4fQ.tK2SCJbrE-fL9ayXfm1Dct8hoXXhnyDzZqOfJguEXGMk7e3gSKfZ-qBhAfbK8dv4LaeHTS-lbmdEc2IrqVQoYA",
     "last_login": "2020-07-31T16:40:48.459+00:00",
-    "active": true,
     "isactive": true
 }
 ```
@@ -75,7 +84,6 @@ Metodo: Get <br/>
         "modified": "2020-07-31",
         "username": "jsati@prb.cl",
         "phones": [],
-        "active": true,
         "last_login": "2020-07-31",
         "isactive": true
     },
