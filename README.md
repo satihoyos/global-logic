@@ -25,9 +25,9 @@ Compilar proyecto con gradle
     > cd build/libs/
     > java -jar user-api-0.0.1-SNAPSHOT.jar
 ```
-##Endpoints
+## Endpoints
 Ejemplo de como ejecutar los servicios expuestos por la api
-###Crear Usuario
+### Crear Usuario
 Este recurso no está protegido así que no le solicitará token.
 Path: http:localhost:8080/user <br/>
 Metodo: Post <br/>
@@ -59,7 +59,7 @@ Response:
     "isactive": true
 }
 ```
-###Lista de Usuarios
+### Lista de Usuarios
 Este recurso está protegido debe crear cabecera con token generado en autenticación.<br/>
 Ejemplo de cabecera:
 ```
@@ -97,7 +97,7 @@ Metodo: Get <br/>
     }
 ]
 ```
-###Autenticación
+### Autenticación
 Servicio que autentica y retorna token (jwt) de autorización. <br/>
 Path: http:localhost:8080/authenticate <br/>
 Metodo: Post <br/>
@@ -114,7 +114,7 @@ response:
     "token": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJqc2F0aUBwcmIuY2wiLCJleHAiOjE1OTY2OTYyODQsImlhdCI6MTU5NjA5MTQ4NH0.6RzUHCRx6P2BqG2eVPBW0Bcg5abdHWpg6PDH1UzKx8RUc7Ks1PpF6XZQKuusqVxIPhT-O_Y-djP_SvSD9uQbcg"
 }
 ```
-###Consola de BD H2
+### Consola de BD H2
 JDBC URL: jdbc:h2:mem:desa <br/>
 username: sa <br/>
 password: --vacio-- <br/>
