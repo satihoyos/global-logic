@@ -1,6 +1,5 @@
 package com.globallogic.evaluation.userapi.converter;
 
-import com.globallogic.evaluation.userapi.entity.PhoneEntity;
 import com.globallogic.evaluation.userapi.entity.UserEntity;
 import com.globallogic.evaluation.userapi.helper.ConverterFile;
 import org.junit.jupiter.api.Test;
@@ -20,7 +19,6 @@ import static org.junit.jupiter.api.Assertions.*;
 /**
  * Created by sati on 30-07-20.
  */
-@RunWith(SpringJUnit4ClassRunner.class)
 @SpringBootTest
 class UserEntityToUserDetailsTest {
 

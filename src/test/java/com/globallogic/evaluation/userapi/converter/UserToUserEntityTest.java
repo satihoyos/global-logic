@@ -19,7 +19,6 @@ import static org.junit.jupiter.api.Assertions.*;
 /**
  * Created by sati on 30-07-20.
  */
-@RunWith(SpringJUnit4ClassRunner.class)
 @SpringBootTest
 class UserToUserEntityTest {
 
